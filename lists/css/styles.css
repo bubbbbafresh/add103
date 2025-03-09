@@ -1,0 +1,52 @@
+body {
+  background-color: ivory;
+}
+
+h1 {
+  color: darkorchid;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: mediumorchid;
+  padding-left: 4%;
+  padding-top: 2%;
+  margin: 2px;
+}
+
+ul ol {
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+ul ul {
+  list-style-type: square;
+}
+
+ol ol {
+  list-style-type: lower-alpha;
+}
+
+li {
+  color: darkslategrey;
+  line-height: 150%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-inline-start: 2%;
+  font-size: 1.05em;
+}
+
+dt {
+  color: darkslategrey;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-inline-start: 2%;
+}
+
+dd {
+  color: rgb(81, 135, 148);
+  line-height: 150%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-inline-start: 4%;
+  font-size: 1.05em;
+}
