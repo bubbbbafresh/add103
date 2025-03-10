@@ -51,11 +51,7 @@ a:link {
   border: solid 2px rgb(235, 73, 154);
 }
 
-/* a:visited {
-  color: rgba(10, 10, 10);
-  background-color: rgb(218, 20, 20);
-  border: solid 2px rgb(218, 20, 20);
-} */
+
 
 a:hover {
   color: rgb(235, 73, 154);
