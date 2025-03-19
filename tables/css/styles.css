@@ -1,0 +1,152 @@
+body {
+  background-color: rgb(37, 29, 36);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  background-color: rgb(53, 3, 73);
+  color: rgb(231, 222, 167);
+  text-align: center;
+  margin-top: -13px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(231, 222, 167);
+  padding: 20px 0px 10px 0px;
+  background-color: rgb(53, 3, 73);
+}
+
+nav {
+  background-color: rgb(95, 79, 102);
+  padding: 8px 0px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 120px;
+  list-style-type: none;
+}
+
+a {
+  color: rgb(59, 41, 2);
+  padding: 10px 15px;
+  background-color: rgb(218, 141, 214);
+  border-radius: 10px;
+  /* border-style: outset; */
+  box-shadow: 0px 0px 10px rgb(153, 119, 161);
+  text-decoration: none;
+}
+
+a.active {
+  background-color: rgba(221, 131, 217, 0.671);
+  color: rgb(59, 41, 2);
+}
+
+a:hover {
+  color: rgb(59, 41, 2);
+  padding: 10px 15px;
+  background-color: rgb(221, 103, 215);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgb(244, 241, 245);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(218, 141, 214);
+  padding: 10px 15px;
+  background-color: rgb(27, 19, 3);
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgb(197, 181, 201);
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(231, 222, 167);
+  margin: 30px 0px 10px 0px;
+}
+
+table {
+  width: 80%;
+  border: 2px solid white;
+  margin: 15px auto;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  padding: 10px 10px;
+  border: 2px solid rgb(202, 202, 171);
+}
+
+th,
+td {
+  color: rgb(19, 1, 26);
+  border: none;
+  background-color: rgb(244, 241, 245);
+  padding: 8px;
+  text-align: center;
+}
+
+.span {
+  border: 1px solid black;
+}
+
+.styled-table {
+  width: 80%;
+  margin: auto;
+  border-color: black;
+  border-spacing: 0;
+}
+
+.styled-table tr {
+  background-color: rgb(244, 241, 245);
+}
+
+.styled-table th {
+  color: rgb(83, 82, 79);
+  background-color: rgb(218, 141, 214);
+  font-weight: bold;
+  border-color: aqua;
+}
+
+.styled-table td {
+  border: 1px solid rgba(0, 0, 0, 0.637);
+}
+
+.styled-table tr:hover {
+  background-color: rgb(235, 26, 217);
+}
+
+table.calender {
+  width: 90%;
+  border: 2px solid white;
+  margin: 15px auto;
+}
+
+.calender th {
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(218, 141, 214);
+  color: rgb(19, 1, 26);
+}
+
+.calender td {
+  font-size: 12px;
+  text-align: right;
+  vertical-align: top;
+  height: 80px;
+  width: 80px;
+}
+
+td.dec {
+  color: rgba(47, 48, 53, 0.692);
+  background-color: #ffffffd2;
+}
+
+.calender td:hover {
+  background-color: rgba(231, 198, 229, 0.459);
+}
