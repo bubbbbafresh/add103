@@ -1,0 +1,256 @@
+/* Theme colors for this project from Adobe Color - Learned to use CSS variables at W3Schools */
+:root {
+  --blue: 78, 116, 191;
+  --light-blue: 75, 125, 191;
+  --puke: 136, 140, 3;
+  --mustard: 191, 159, 63;
+  --white: 217, 212, 204;
+  --black: 18, 33, 48;
+}
+
+/* UNIVERSAL ELEMENTS */
+body {
+  background-color: rgb(40, 30, 0);
+}
+
+#body {
+  background-color: rgba(var(--mustard), 1);
+  color: var(--black);
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1em;
+  border: 2px solid rgb(var(--puke));
+  margin: 10px 200px;
+  padding: 0px 0px;
+  line-height: 1.75;
+}
+
+header {
+  background-color: rgba(var(--blue), 0.9);
+  border-radius: 25px;
+  color: rgb(var(--white));
+  margin: 0px 45px;
+  padding: 0px 0px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Rammetto One", sans-serif;
+  padding: 30px 100px;
+  margin: 0px 20px;
+}
+
+nav {
+  background-color: rgba(var(--blue), 1);
+  border-radius: 0px 0px 25px 25px;
+  padding: 0px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 10px 45px;
+  padding: 20px auto;
+  display: inline-flex;
+  text-align: center;
+}
+
+.button {
+  text-decoration: none;
+  /* COPY FOR ACTIVE/HOVER/ETC */
+  color: rgba(39, 39, 225, 0.812);
+  background-color: rgba(var(--puke), 0.7);
+  border: 3px solid rgb(var(--puke));
+  /* END */
+  border-radius: 20%;
+  padding: 5px auto;
+  width: 100px;
+}
+
+.button:hover {
+  color: rgb(33, 33, 227);
+  background-color: rgba(var(--puke), 0.9);
+  border: 3px solid rgb(var(--mustard));
+}
+
+.button:active {
+  color: rgb(220, 227, 6);
+  background-color: rgba(33, 33, 227, 0.9);
+  border: 3px solid rgb(173, 179, 0);
+}
+
+h2 {
+  font-family: "Rammetto One", sans-serif;
+  text-align: center;
+}
+
+#home-main {
+  display: flex;
+  align-items: flex-start;
+}
+
+#home-fig {
+  display: inline-block;
+  text-align: center;
+}
+
+#home-fig img {
+  display: block;
+  border: 2px solid rgb(var(--maroon));
+  border-radius: 10px;
+  margin: 0px auto;
+}
+
+#home-fig figcaption p {
+  color: rgba(var(--black), 0.65);
+  font-size: 0.85em;
+  font-weight: 550;
+  text-align: center;
+  margin: 2px auto;
+  display: table;
+  line-height: normal;
+}
+
+figcaption em {
+  font-size: 0.9em;
+  font-weight: 450;
+}
+
+#home-cont {
+  margin: 30px 40px auto 2px;
+  display: flex;
+  text-align: justify;
+}
+
+#big-flex {
+  display: flex;
+  flex-direction: row;
+  line-height: 2;
+  text-align: justify;
+}
+
+.flex-left {
+  margin: 0px auto;
+  margin-left: 25px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  /* background-color: blue; */
+}
+
+.flex-left img {
+  display: block;
+  margin: 20px auto 15px auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.flex-right {
+  margin: 0px auto;
+  margin-left: 10px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: right;
+  width: 50%;
+  /* background-color: white; */
+}
+
+.flex-right p,
+.flex-right img {
+  margin: 0px auto 30px auto;
+}
+
+.post {
+  margin: 0px 25px 40px 25px;
+}
+
+.post img {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+
+#img1 {
+  width: 40%;
+}
+
+#img2 {
+  width: 25%;
+}
+
+#img3 {
+  width: 25%;
+}
+
+.sandbox {
+  margin: 10px 25px 30px 25px;
+}
+.sandbox iframe {
+  width: 100%;
+  height: 350px;
+}
+
+.sandbox figure iframe,
+.sandbox figure figcaption p {
+  margin: 0px auto;
+  text-align: center;
+  font-size: 0.85em;
+}
+
+#bash-fig img {
+  margin: 0px auto;
+  display: block;
+  width: 70%;
+}
+
+#list-title {
+  font-weight: 500;
+  margin: 0px auto;
+}
+
+.sandbox ul {
+  padding: 0px auto;
+  margin: 0px auto 15px auto;
+}
+
+.sandbox ul li {
+  list-style-type: square;
+  line-height: 2.5;
+  font-family: inherit;
+}
+
+#contact-main {
+  display: block;
+  margin: 0px 15px 15px 15px;
+  padding: 0px auto;
+  border: 2px solid rgb(var(--black));
+}
+
+.contact-table {
+  display: table;
+  padding: 0px 37.25%;
+}
+
+.contact-table tr td a {
+  text-decoration: underline;
+  margin: 0px 20px;
+  text-align: center;
+  color: inherit;
+}
+.contact-table tr td img {
+  width: 100px;
+  height: 100px;
+  margin: 0px auto 25px auto;
+}
+
+#contact-h3 {
+  text-align: center;
+}
